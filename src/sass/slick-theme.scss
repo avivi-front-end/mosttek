@@ -62,7 +62,8 @@ $slick-opacity-not-active: 0.25 !default;
     height: 20px;
     width: 20px;
     line-height: 0px;
-    font-size: 0px;
+  z-index: 999;
+    outline:none;
     cursor: pointer;
     background: transparent;
     color: transparent;
@@ -74,28 +75,13 @@ $slick-opacity-not-active: 0.25 !default;
     padding: 0;
     border: none;
     outline: none;
-    &:hover, &:focus {
-        outline: none;
-        background: transparent;
-        color: transparent;
-        &:before {
-            opacity: $slick-opacity-on-hover;
-        }
-    }
+
     &.slick-disabled:before {
         opacity: $slick-opacity-not-active;
     }
 }
 
-.slick-prev:before, .slick-next:before {
-    font-family: $slick-font-family;
-    font-size: 20px;
-    line-height: 1;
-    color: $slick-arrow-color;
-    opacity: $slick-opacity-default;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+
 
 .slick-prev {
     left: -25px;
