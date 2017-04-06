@@ -78,14 +78,29 @@ function butterClick() {
     $('.butter').click(function () {
         $(this).toggleClass('active');
         if($(this).hasClass('active')){
-            menu.slideDown();
+            menu.stop().slideDown();
         }else{
-            menu.slideUp();
+            menu.stop().slideUp();
         }
     });
+}
+function accordion() {
+    var item = $('.acordeon__title');
+    if(item.length > 0){
+        item.click(function () {
+            $(this).toggleClass('active');
+            var list = $(this).closest('.acordeon__row').find('.acordeon__list');
+            if($(this).hasClass('active')){
+                list.stop().slideDown();
+            }else{
+                list.stop().slideUp();
+            }
+        });
+    }
 }
 $(document).ready(function () {
     butterClick();
     sliderInit();
-    googleMap('map');
+    if($('.map').length>0)googleMap('map');
+    accordion();
 });

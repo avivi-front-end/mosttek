@@ -1,0 +1,71 @@
+@media screen and (max-width: 1279px){
+  .form__item{ width: 49%; text-align: center;}
+  .form__row{flex-wrap: wrap;}
+  .img-set__item img{ height: 250px;}
+  .text-box ul.three-column li{ width: 50%;}
+  .text-box__item{ padding-right: 5%;}
+}
+
+
+
+@media screen and (max-width: 992px){
+  .top-slider__mbox{ text-align: center; align-items: center;}
+  .top-slider__slide h2{ font-size: 56px;}
+  .finance{ padding-top: 40px;}
+  .footer__col{ width:50%;}
+  .footer__nav{ width:calc(100% - 100px);}
+  .img-set__item img{ height: 190px;}
+  .top-slider{ margin-bottom: 0;}
+  .text-box { padding-top: 30px; padding-bottom: 30px;}
+  .gas-buttons__wrap{flex-wrap: wrap; justify-content: space-around;}
+  .gas-buttons__item-container{ width: 300px;}
+  .form__title{ padding-bottom: 0;}
+  .text-box__row{ flex-wrap: wrap;}
+  .text-box__item{ padding-right: 0; width: 100%; margin-bottom: 20px;}
+  .acordeon ul li{ width: 100%; padding-right: 0; padding-left: 0;}
+}
+
+
+
+@media screen and (max-width: 767px){
+  body{ line-height: 1.26; font-size: 16px;}
+  .header__nav{ line-height: 2; font-size: 20px;}
+  .form__item{ width: 100%;}
+  .text-box h2,
+  .top-slider__slide h2,
+  .finance__wrap h2,
+  .title h2{ line-height: 1.26; font-size: 32px; padding: 0;}
+  .title h1{ line-height: 1.26; font-size: 46px; padding-bottom: 0;}
+  .title{ padding-bottom: 30px;}
+  .top-slider__mbox{ min-height: 400px;}
+  .slick-dots{ text-align: center; padding: 0; bottom: 0;}
+  .slick-dots li{ margin: 0 5px;}
+  .three-items__item{ width: 100%;}
+  .breadcrumbs__wrap span {    margin: 0 5px;  }
+  .form__title{ padding-bottom: 0;}
+  .acordeon ul{ padding: 25px 0 0;
+    a{ padding-left: 34px;}
+  }
+  .acordeon__title-wrap{ min-height: 1px; padding: 10px 0;}
+  .acordeon__title.active:before,
+  .acordeon__title:before{top: calc(50% - 7px); width: 15px; height: 15px; left: 0;}
+  .acordeon__title {    font-size: 30px;    padding-left: 40px;}
+}
+
+
+
+@media screen and (max-width: 480px){
+  .top-slider__slide h2{ padding-bottom: 25px;}
+  .footer__soc{ width: 26px; flex-direction: column;}
+  .footer__nav{ width:calc(100% - 26px);}
+  .top-slider__slide h2,
+  .finance__wrap h2,
+  .title h2{ font-size: 20px;}
+  .title h1{  font-size: 32px; padding-bottom: 0;}
+  .title{ padding-bottom: 10px;}
+  .img-set__item img{ height: 90px;}
+  .gas-buttons__item-container{ width: 100%; padding: 0;}
+  .text-box ul.three-column li{ width: 100%;}
+  .acordeon ul a:before{ left: 0;}
+
+}
