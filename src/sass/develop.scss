@@ -101,6 +101,11 @@ input, textarea{
     }
     &.ltsp{ letter-spacing: 1.5px;}
 }
+button{
+    &.button{ display: block; line-height: 48px;
+        &--grad{ line-height: 70px;}
+    }
+}
 .gas-bttn{ font-weight: 400; color: #fff; font-size: 25px; position: relative; text-decoration: none; line-height: 1.26; padding-bottom: 15px;
     &:after{ position: absolute; bottom: 11px; width: 100%; background-color: #fff; height: 2px; left: 0;content: ''; transition: all 200ms;}
     &:hover:after{ bottom: 0;}
@@ -125,6 +130,7 @@ input, textarea{
     h1{ font-size:70px; font-weight: 700; margin: 0; letter-spacing: 0.7px; line-height: 1.5; }
     h2{ font-size:40px; font-weight: 700; margin: 0; letter-spacing: 0.7px; padding-bottom: 22px;}
 }
+.subtitle{ font-size: 40px;line-height: 1.125;}
 .socicon{ background-repeat: no-repeat; background-position: 50%; display: block; transition: all 200ms; cursor: pointer; margin-bottom: 12px;
     &.vk{ background-image: url(../images/vk.png); width: 26px; height: 14px;
         &:hover{ background-image: url(../images/vk-h.png);}

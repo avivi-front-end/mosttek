@@ -4,6 +4,7 @@
   .img-set__item img{ height: 250px;}
   .text-box ul.three-column li{ width: 50%;}
   .text-box__item{ padding-right: 5%;}
+  .table__cell{ padding: 15px;}
 }
 
 
@@ -23,6 +24,11 @@
   .text-box__row{ flex-wrap: wrap;}
   .text-box__item{ padding-right: 0; width: 100%; margin-bottom: 20px;}
   .acordeon ul li{ width: 100%; padding-right: 0; padding-left: 0;}
+  .table{ font-size: 16px; }
+  .table__cell{ padding: 10px;}
+  .forms__content{ flex-wrap: wrap;}
+  .forms__left{ width: 100%; margin-right: 0;}
+  .forms__right{ width: 100%;}
 }
 
 
@@ -36,6 +42,7 @@
   .finance__wrap h2,
   .title h2{ line-height: 1.26; font-size: 32px; padding: 0;}
   .title h1{ line-height: 1.26; font-size: 46px; padding-bottom: 0;}
+  .text-white h1{ font-size: 46px;}
   .title{ padding-bottom: 30px;}
   .top-slider__mbox{ min-height: 400px;}
   .slick-dots{ text-align: center; padding: 0; bottom: 0;}
@@ -50,6 +57,13 @@
   .acordeon__title.active:before,
   .acordeon__title:before{top: calc(50% - 7px); width: 15px; height: 15px; left: 0;}
   .acordeon__title {    font-size: 30px;    padding-left: 40px;}
+  .table{ padding-top: 0;}
+  .table__row{ width: 100%; flex-direction: column; margin-bottom: 10px;}
+  .table__cell{ width: 100%;
+    &:last-child{ width: 100%;}
+  }
+  .table__head{ font-weight: 700;}
+  .subtitle{ font-size: 32px;}
 }
 
 
@@ -62,10 +76,12 @@
   .finance__wrap h2,
   .title h2{ font-size: 20px;}
   .title h1{  font-size: 32px; padding-bottom: 0;}
+  .text-white h1{ font-size: 32px;}
   .title{ padding-bottom: 10px;}
   .img-set__item img{ height: 90px;}
   .gas-buttons__item-container{ width: 100%; padding: 0;}
   .text-box ul.three-column li{ width: 100%;}
   .acordeon ul a:before{ left: 0;}
+  .subtitle{ font-size: 20px;}
 
 }
