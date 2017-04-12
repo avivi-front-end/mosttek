@@ -37,7 +37,7 @@
   .text-box.notmain.text-box__contact{ padding-bottom: 28px;}
   .text-box.notmain.text-box__contact p{ margin-bottom: 0;}
   .acordeon ul li{ width: 100%; padding-right: 0; padding-left: 0;}
-  .subtitle{ margin-top: 15px;}
+  .subtitle{ line-height: 2;}
   .table{ font-size: 16px; overflow-x: scroll; padding-top: 0;}
   .table__row{min-width: 750px;}
   .table__cell{ padding: 10px;}
@@ -72,7 +72,7 @@
   .top-slider__mbox{ min-height: 400px; }
   .slick-dots{ text-align: center; padding: 0; bottom: 0;}
   .slick-dots li{ margin: 0 5px;}
-  .three-items__item{ width: 100%;}
+
   .breadcrumbs__wrap span {    margin: 0 5px;  }
   .form__title{ padding-bottom: 0;}
   .acordeon ul{ padding: 25px 0 0;
@@ -87,7 +87,7 @@
   .subtitle{ font-size: 32px;}
   .errorText{ bottom: 4px;}
   .form__row .errorText { top: calc(100% + 5px);  }
-  .forms{padding: 1px 0 38px;}
+  .forms{padding: 11px 0 38px;}
   .footer{ padding-top: 33px;}
   .footer__menu{ flex-direction: column-reverse;}
   .footer__soc{ width: 100%; justify-content: flex-start;  }
@@ -106,9 +106,9 @@
 }
 
 @media screen and (max-width: 480px){
-  .top-slider__slide h2{ padding-bottom: 75px;text-shadow: 0 0 5px rgba(0,0,0,0.3);}
+  .top-slider__slide h2{ padding-bottom: 75px;}
   .text-box h2,
-
+  .mob-br{ display: block;}
   .finance__wrap h2,
   .title h2{ font-size: 20px;}
   .three-items__txt h6{ font-size: 18px;}
@@ -121,6 +121,9 @@
   .acordeon ul a:before{ left: 0;}
   .subtitle{ font-size: 20px;}
   .footer__copyright{ flex-direction: column;}
-  .footer__copyright p{ width: 100%; text-align: center; margin: 0;}
+  .footer__copyright p{ width: 100%; text-align: left; margin: 0;}
+
+  .three-items__item{ width: 100%;}
+  .three-items__img {padding-right: 23px; width: 75px;}
 
 }

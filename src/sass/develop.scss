@@ -119,8 +119,8 @@ button{
 .slick-prev{ left: 60px;  transform:rotate(-135deg); }
 .slick-next{ right: 60px;}
 @media screen and (max-width: 1600px){
-  .slick-prev{ left: 10px; }
-  .slick-next{ right: 10px;}
+  .slick-prev{ left: 15px; }
+  .slick-next{ right: 15px;}
 }
 .slick-dots li{ margin: 0 14px;}
 .slick-dots li button:before{ width: 8px; height: 8px; padding: 0; background-color: #2667a9; content: ''; border-radius: 50%; opacity: 1;}
