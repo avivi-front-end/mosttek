@@ -12,16 +12,16 @@
                     </div>
                     <form action="ajax.php" class="subscribe-form">
                         <div class="forms__content">
-                            <div class="forms__left forms__col">
-                                <div class="forms__item"><input type="text" name="" required="required" placeholder="ФИО"></div>
-                                <div class="forms__item"><input type="email" name="" required="required" placeholder="E-mail"></div>
-                                <div class="forms__item"><input type="text" name="" required="required" class="tel-mask" placeholder="Телефон"></div>
+                            <div class="forms__left forms__col form_row">
+                                <div class="forms__item form_input"><input type="text" name="name" required="required" placeholder="ФИО"><span class="correct"></span></div>
+                                <div class="forms__item form_input"><input type="email" name="email" required="required" placeholder="E-mail"><span class="correct"></span></div>
+                                <div class="forms__item form_input"><input type="text" name="phone" required="required" class="tel-mask" placeholder="Телефон"><span class="correct"></span></div>
                             </div>
-                            <div class="forms__right forms__col">
-                                <div class="forms__item">
+                            <div class="forms__right forms__col form_row">
+                                <div class="forms__item form_input">
                                     <textarea name="coment" placeholder="Комментарий или вопрос"></textarea>
                                 </div>
-                                <div class="forms__item">
+                                <div class="forms__item forms__item--file">
                                     <label class="input-file"><input type="file"><i></i><span>Прикрепить файл</span></label>
                                 </div>
                                 <div class="forms__item forms__item--right">

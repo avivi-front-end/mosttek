@@ -152,5 +152,6 @@ function Maskedinput(){
 }
 $(document).ready(function(){
    validate('.main-page', {submitFunction:validationCall});
+   validate('.subscribe-form', {submitFunction:validationCall});
    Maskedinput();
 });

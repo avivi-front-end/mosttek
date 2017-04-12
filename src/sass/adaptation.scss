@@ -10,33 +10,57 @@
 
 
 @media screen and (max-width: 992px){
+  .breadcrumbs{ display: none;}
+  .title h1{ margin-top: 25px;}
+  .finance.notmain.finance__oil{ margin-bottom: 0;}
+  .acordeon{ padding-bottom: 48px;}
   .top-slider__mbox{ text-align: center; align-items: center;}
   .top-slider__slide h2{ font-size: 56px;}
-  .finance{ padding-top: 40px;}
+  .finance{ padding-top: 40px; min-height: 1px;}
   .footer__col{ width:50%;}
   .footer__nav{ width:calc(100% - 100px);}
-  .img-set__item img{ height: 190px;}
   .top-slider{ margin-bottom: 0;}
-  .text-box { padding-top: 30px; padding-bottom: 30px;}
-  .gas-buttons__wrap{flex-wrap: wrap; justify-content: space-around;}
+  .text-box { padding-top:1px; padding-bottom: 60px;}
+  .gas-buttons__wrap{flex-wrap: wrap; justify-content: space-around; padding-bottom: 0;}
   .gas-buttons__item-container{ width: 300px;}
   .form__title{ padding-bottom: 0;}
-  .text-box__row{ flex-wrap: wrap;}
+
+  .text-box__row{ flex-wrap: wrap; padding-bottom: 0;}
   .text-box__item{ padding-right: 0; width: 100%; margin-bottom: 20px;}
+  .text-box__item--texter{ padding-left: 0;
+    .button{ margin-bottom: 30px;}
+  }
+  .text__broker{ padding-bottom: 0; margin-bottom: -20px;}
+  .text-box__img{ padding-top: 0; margin-bottom: 0;}
+  .text-box__item h2{ margin-bottom: 0;}
+  .text-box h2{ margin: 35px 0;}
+  .text-box.notmain.text-box__contact{ padding-bottom: 28px;}
+  .text-box.notmain.text-box__contact p{ margin-bottom: 0;}
   .acordeon ul li{ width: 100%; padding-right: 0; padding-left: 0;}
-  .table{ font-size: 16px; }
+  .subtitle{ margin-top: 15px;}
+  .table{ font-size: 16px; overflow-x: scroll; padding-top: 0;}
+  .table__row{min-width: 750px;}
   .table__cell{ padding: 10px;}
+  .form{    padding-top: 44px;    padding-bottom: 23px;}
   .forms__content{ flex-wrap: wrap;}
   .forms__left{ width: 100%; margin-right: 0;}
-  .forms__right{ width: 100%;}
+  .forms__right{ width: 100%; }
+  .forms__item--right{ justify-content: center;}
+  .forms__item--file{ min-height: 1px; margin-top: -20px; margin-bottom: 25px;}
+  .text-box.notmain{ padding-bottom: 0;}
+  .header__logo{ width: 100%; }
+  .header__logo a{ width: 190px; display: block; }
+  .header__nav{position: absolute;    top: 45px;    left: calc(50% - 15px);}
 }
 
 
 
 @media screen and (max-width: 767px){
-  body{ line-height: 1.26; font-size: 16px;}
+  body{  font-size: 16px;}
   .header__nav{ line-height: 2; font-size: 20px;}
   .form__item{ width: 100%;}
+  .text-box ul li:before{ top: 16px;}
+  .text-box h3{ font-size: 20px;}
   .text-box h2,
   .top-slider__slide h2,
   .finance__wrap h2,
@@ -44,7 +68,7 @@
   .title h1{ line-height: 1.26; font-size: 46px; padding-bottom: 0;}
   .text-white h1{ font-size: 46px;}
   .title{ padding-bottom: 30px;}
-  .top-slider__mbox{ min-height: 400px;}
+  .top-slider__mbox{ min-height: 400px; padding-bottom: 0;}
   .slick-dots{ text-align: center; padding: 0; bottom: 0;}
   .slick-dots li{ margin: 0 5px;}
   .three-items__item{ width: 100%;}
@@ -56,32 +80,41 @@
   .acordeon__title-wrap{ min-height: 1px; padding: 10px 0;}
   .acordeon__title.active:before,
   .acordeon__title:before{top: calc(50% - 7px); width: 15px; height: 15px; left: 0;}
-  .acordeon__title {    font-size: 30px;    padding-left: 40px;}
-  .table{ padding-top: 0;}
-  .table__row{ width: 100%; flex-direction: column; margin-bottom: 10px;}
-  .table__cell{ width: 100%;
-    &:last-child{ width: 100%;}
-  }
-  .table__head{ font-weight: 700;}
+  .acordeon__title {    font-size: 18px;    padding-left: 40px;}
+
+
   .subtitle{ font-size: 32px;}
+  .errorText{ bottom: 4px;}
+  .form__row .errorText { top: calc(100% + 5px);  }
+
+  .footer__menu{ flex-direction: column-reverse;}
+  .footer__soc{ width: 100%; justify-content: flex-start;  }
+  .footer__nav{ width:100%;}
+  .socicon{ margin-right:15px;}
+
+  .img-set__wrap{flex-wrap: wrap;}
+  .img-set__item{ width: 100%;}
 }
 
-
+@media screen and (max-width: 600px) {
+  .header__nav { top: 24px; right: 15px; left: auto; }
+}
 
 @media screen and (max-width: 480px){
-  .top-slider__slide h2{ padding-bottom: 25px;}
-  .footer__soc{ width: 26px; flex-direction: column;}
-  .footer__nav{ width:calc(100% - 26px);}
+  .top-slider__slide h2{ padding-bottom: 55px;}
+  .text-box h2,
   .top-slider__slide h2,
   .finance__wrap h2,
   .title h2{ font-size: 20px;}
+  .three-items__txt h6{ font-size: 18px;}
   .title h1{  font-size: 32px; padding-bottom: 0;}
   .text-white h1{ font-size: 32px;}
   .title{ padding-bottom: 10px;}
-  .img-set__item img{ height: 90px;}
   .gas-buttons__item-container{ width: 100%; padding: 0;}
   .text-box ul.three-column li{ width: 100%;}
   .acordeon ul a:before{ left: 0;}
   .subtitle{ font-size: 20px;}
+  .footer__copyright{ flex-direction: column;}
+  .footer__copyright p{ width: 100%; text-align: center; margin: 0;}
 
 }

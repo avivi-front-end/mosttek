@@ -130,7 +130,7 @@ button{
     h1{ font-size:70px; font-weight: 700; margin: 0; letter-spacing: 0.7px; line-height: 1.5; }
     h2{ font-size:40px; font-weight: 700; margin: 0; letter-spacing: 0.7px; padding-bottom: 22px;}
 }
-.subtitle{ font-size: 40px;line-height: 1.125;}
+.subtitle{ font-size: 40px;line-height: 1.125; margin-top: -14px;}
 .socicon{ background-repeat: no-repeat; background-position: 50%; display: block; transition: all 200ms; cursor: pointer; margin-bottom: 12px;
     &.vk{ background-image: url(../images/vk.png); width: 26px; height: 14px;
         &:hover{ background-image: url(../images/vk-h.png);}
