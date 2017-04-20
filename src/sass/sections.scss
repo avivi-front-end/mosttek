@@ -148,7 +148,7 @@ input.error{color:#df0b0b;}
   &__title{ padding-bottom: 0;
     h2{ padding-bottom: 15px;}
   }
-  &__item{ width: 330px; margin-bottom: 30px;}
+  &__item{ width: 330px; margin-bottom: 30px; height: 60px;}
   &__wrap{
     p{ margin: 0 0 40px;}
   }
@@ -162,7 +162,7 @@ input.error{color:#df0b0b;}
 
   textarea{ width: 100%;  border-radius: 5px;  background-color: #fff; border:none; resize: none; padding: 10px 26px; min-height: 150px; margin-bottom: 30px;}
   &__content{ display: flex; justify-content: flex-start; align-items: flex-start; padding-top: 23px;}
-  &__item{  min-height: 60px; display: flex; justify-content: flex-start; align-items: center;
+  &__item{  mih-height: 60px; display: flex; justify-content: flex-start; align-items: center;
     &--right{ justify-content: flex-end;}
   }
   &__left{ width: 450px; margin-right: 30px;}
