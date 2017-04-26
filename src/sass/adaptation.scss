@@ -1,3 +1,7 @@
+@media screen and (max-width: 1400px){
+  .form__item{ width: 49%; text-align: center;}
+  .form__row{flex-wrap: wrap;}
+}
 @media screen and (max-width: 1279px){
   .form__item{ width: 49%; text-align: center;}
   .form__row{flex-wrap: wrap;}
